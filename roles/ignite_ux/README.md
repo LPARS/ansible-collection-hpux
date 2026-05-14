@@ -34,7 +34,7 @@ The list of logical volumes that you want to resize for Ignite-UX. Defaults to t
 
 ## Dependencies
 
-    - `community.general`
+    - community.general
 
 ## Example Playbook
 
