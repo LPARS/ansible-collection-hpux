@@ -1,8 +1,33 @@
-version: 1.0.0
-name: hpux
 namespace: lpars
+
+name: hpux
+
+version: 1.0.0
+
+readme: README.md
+
 authors:
   - lpars
-description: Collection for managing hpux servers
+
+description: This collection includes roles for automating common tasks in HP-UX.
+
 license:
   - MIT
+
+license_file: 'LICENSE'
+
+tags:
+  - hpux
+
+dependencies:
+  community.general: ">=12.0.0"
+
+repository: https://github.com/LPARS/ansible-collection-hpux
+
+documentation: https://github.com/LPARS/ansible-collection-hpux
+
+homepage: http://example.com
+
+issues: https://github.com/LPARS/ansible-collection-hpux/issues
+
+build_ignore: []
