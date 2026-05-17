@@ -20,11 +20,11 @@ to centralize package management.
 The network depot path to install depots from. Defaults to `/var/spool/sw`. Note: This variable is shared across all roles
 in this collection to centralize package management.
 
-    vswitch_name: "vsw0"
+    integrity_vswitch_name: "vsw0"
 
 The name of the default vswitch that vPars/VMs will use. Defaults to `vsw0`.
 
-    vswitch_lan: "0"
+    integrity_vswitch_lan: "0"
 
 The interface index to bind the vswitch to (e.g. lan0, lan1). Defaults to `0` for lan0.
 
