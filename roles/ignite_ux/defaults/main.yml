@@ -11,3 +11,4 @@ ignite_logical_volumes:
     lv_size: 16384
 
 ignite_user_files: []
+ignite_user_templates: []

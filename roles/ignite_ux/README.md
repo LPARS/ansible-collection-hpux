@@ -34,8 +34,14 @@ The list of logical volumes that you want to resize for Ignite-UX. Defaults to t
 
 ignite_user_files: []
 
-The list of files/templates you want to be copied to the Ignite-UX server, such as scripts, config files, etc.
-Make sure to place them inside the `files/` or `templates/` directory adjacent to your playbook.
+The list of files you want to be copied to the Ignite-UX server.
+Make sure to place them inside the `files/` directory adjacent to your playbook.
+
+ignite_user_templates: []
+
+The list of templates you want to be rendered on the Ignite-UX server.
+Make sure to place them inside the `templates/` directory adjacent to your playbook.
+
 ## Dependencies
 
     - community.general
