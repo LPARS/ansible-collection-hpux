@@ -45,4 +45,4 @@
 
 - name: "Manage Integrity VMs"
   include_tasks: create_vms.yml
-  when: integrity_guests is defined
+  when: integrity_guests | length > 0

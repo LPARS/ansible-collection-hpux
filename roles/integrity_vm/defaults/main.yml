@@ -4,3 +4,5 @@ hpux_sdux_server_path: "/var/spool/sw"
 
 integrity_vswitch_name: "vsw0"
 integrity_vswitch_lan: "0"
+
+integrity_guests: []
