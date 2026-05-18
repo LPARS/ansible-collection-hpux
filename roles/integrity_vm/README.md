@@ -30,7 +30,7 @@ The interface index to bind the vswitch to (e.g. lan1). Defaults to `0` for lan0
 
     integrity_guests: []
 
-A list of dictionaries defining the vPars/VMs to be created. Supports the following parameters:
+The list of VMs to be created. Supports the following parameters:
 
 | Parameter      | Type    | Required | Description                                                                     |
 | :---           | :---    | :---     | :---                                                                            |
