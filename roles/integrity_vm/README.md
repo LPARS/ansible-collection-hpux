@@ -26,7 +26,7 @@ The name of the default vswitch that vPars/VMs will use. Defaults to `vsw0`.
 
     integrity_vswitch_lan: "0"
 
-The interface index to bind the vswitch to (e.g. lan0, lan1). Defaults to `0` for lan0.
+The interface index to bind the vswitch to (e.g. lan1). Defaults to `0` for lan0.
 
     integrity_guests: []
 
