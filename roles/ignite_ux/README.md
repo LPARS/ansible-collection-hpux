@@ -32,7 +32,7 @@ in the `files/` directory adjacent to your playbook.
 The list of logical volumes that you want to resize for Ignite-UX. Defaults to the values defined in HP's documentation
 (see top of README).
 
-ignite_user_files: []
+    ignite_user_files: []
 
 The list of files you want to be copied to the Ignite-UX server. Supports the following parameters:
 
@@ -43,7 +43,7 @@ The list of files you want to be copied to the Ignite-UX server. Supports the fo
 
 Make sure to place the files inside the `files/` directory adjacent to your playbook.
 
-ignite_user_templates: []
+    ignite_user_templates: []
 
 The list of templates you want to be rendered on the Ignite-UX server. Supports the following parameters:
 
