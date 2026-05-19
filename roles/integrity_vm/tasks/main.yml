@@ -1,12 +1,12 @@
 ---
 - name: "Check if Integrity VM is installed"
   ansible.builtin.command: "/opt/hpvm/bin/hpvminfo"
-  register: hpvm_check
+  register: integrity_check
   failed_when: false
   changed_when: false
 
 - name: "Perform installation and reboot sequence"
-  when: "'Running on an HPVM host' not in hpvm_check.stdout"
+  when: "'Running on an HPVM host' not in integrity_check.stdout"
   block:
     - name: "Install Integrity VM"
       ansible.builtin.command: >
