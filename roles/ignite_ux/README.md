@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/lpars/ansible-collection-hpux/main/roles/ignite_ux/images/successful-install.png" width="250" height="156" alt="Successful Install" />
+<img src="https://raw.githubusercontent.com/lpars/ansible-collection-hpux/main/images/successful-install.png" width="250" height="156" alt="Successful Install" />
 
 # Ansible Role: Ignite-UX
 
