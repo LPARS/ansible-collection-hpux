@@ -1,5 +1,5 @@
 ---
-ignite_staging_dir: "/var/tmp"
+hpux_staging_dir: "/var/tmp"
 ignite_depot: ""
 
 ignite_logical_volumes:

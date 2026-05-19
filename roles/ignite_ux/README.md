@@ -12,9 +12,10 @@ for compatible Python packages.
 
 ## Role Variables
 
-    ignite_staging_dir: "/var/tmp"
+    hpux_staging_dir: "/var/tmp"
 
-The temporary directory to copy `.depot` files to for local installs.
+The temporary directory to copy `.depot` files to for local installs. This variable is shared across all roles
+to centralize depot staging and installation.
 
     ignite_depot: ""
 
@@ -36,10 +37,10 @@ The list of logical volumes that you want to resize for Ignite-UX. Defaults to t
 
 The list of files you want to be copied to the Ignite-UX server. Supports the following parameters:
 
-| Parameter      | Type    | Required | Description                                 |
-| :---           | :---    | :---     | :---                                        |
-| `src`          | String  | **Yes**  | The file to copy to the target node.        |
-| `dest`         | String  | **Yes**  | The destination directory to place the file.|
+| Parameter      | Type    | Required | Description                                  |
+| :---           | :---    | :---     | :---                                         |
+| `src`          | String  | **Yes**  | The file to copy to the target node.         |
+| `dest`         | String  | **Yes**  | The destination directory to place the file. |
 
 Make sure to place the files inside the `files/` directory adjacent to your playbook.
 
