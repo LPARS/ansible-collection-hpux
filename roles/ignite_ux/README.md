@@ -1,5 +1,3 @@
-<img src="https://raw.githubusercontent.com/lpars/ansible-collection-hpux/main/images/successful-install.png" width="250" height="156" alt="Successful Install" />
-
 # Ansible Role: Ignite-UX
 
 This role installs Ignite-UX as per HP's [documentation](https://docs.google.com/viewer?url=https://community.hpe.com/hpeb/attachments/hpeb/itrc-156/498503/1/363239.pdf).
