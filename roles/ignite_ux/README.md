@@ -4,16 +4,15 @@ This role installs Ignite-UX as per HP's [documentation](https://docs.google.com
 
 ## Requirements
 
-* **OS:** HP-UX 11i v3 (B.11.31) on Itanium (IA64).
-* **Python:** Ansible requires Python 3. See the [HP-UX Porting and Archive Centre](http://hpux.connect.org.uk)
+* **Python:** Ansible requires Python, which HP-UX does not include by default. See the [HP-UX Porting and Archive Centre](http://hpux.connect.org.uk)
 for compatible Python packages.
 
 ## Role Variables
 
     hpux_staging_dir: "/var/tmp"
 
-The temporary directory to copy `.depot` files to for local installs. This variable is shared across all roles
-to centralize depot staging and installation.
+The temporary directory to copy `.depot` files to for local installs. Defaults to `/var/tmp`. Note: This variable is shared across all roles
+in this collection to centralize depot staging and installation.
 
     ignite_depot: ""
 

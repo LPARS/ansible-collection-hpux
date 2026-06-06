@@ -5,8 +5,8 @@ and configures a default vswitch vsw0.
 
 ## Requirements
 
-* **OS:** HP-UX 11i v3 (B.11.31) on Itanium (IA64).
-* **Python:** Ansible requires Python 3. See the [HP-UX Porting and Archive Centre](http://hpux.connect.org.uk) for compatible Python packages.
+* **Python:** Ansible requires Python, which HP-UX does not include by default. See the [HP-UX Porting and Archive Centre](http://hpux.connect.org.uk)
+for compatible Python packages.
 
 ## Role Variables
 
