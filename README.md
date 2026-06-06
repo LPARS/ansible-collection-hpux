@@ -17,13 +17,10 @@ collections:
 
 ## Requirements
 
-* **OS:** HP-UX 11i v3 (B.11.31) on Itanium (IA64).
-* **Python:** Ansible requires Python 3. See the [HP-UX Porting and Archive Centre](http://hpux.connect.org.uk)
+* **Python:** Ansible requires Python, which HP-UX does not include by default. See the [HP-UX Porting and Archive Centre](http://hpux.connect.org.uk)
 for compatible Python packages.
 
 ## Included Roles
-
-Roles included in this collection:
 
   - `lpars.hpux.ignite_ux` ([documentation](https://github.com/lpars/ansible-collection-hpux/blob/main/roles/ignite_ux/README.md))
   - `lpars.hpux.integrity_vm` ([documentation](https://github.com/lpars/ansible-collection-hpux/blob/main/roles/integrity_vm/README.md))
